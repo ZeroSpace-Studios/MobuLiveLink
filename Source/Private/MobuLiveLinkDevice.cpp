@@ -150,7 +150,7 @@ bool FMobuLiveLink::DeviceOperation(kDeviceOperations pOperation)
 
 void FMobuLiveLink::SetDeviceInformation(const char* NewDeviceInformation)
 {
-	FString VersionString("v2.5.0 (");
+	FString VersionString("v2.5.1 (");
 	VersionString += __DATE__;
 	VersionString += ")";
 	HardwareVersionInfo.SetString(FStringToChar(VersionString));
